@@ -1,309 +1,268 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>CSS Practice 2</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js" defer></script>
-  </head>
 
-  <body>
-    <section>
-      <nav class="header">
-        <div class="logobackground">
-          <img src="img/Untitled-1-01.png" class="logo" width="90" alt="logo" title="Logo" />
-        </div>
-        <div class="menu">
-          <a class="a1" href="#nam">NAM</a>
-          <a class="a1" href="#nu">NỮ</a>
-          <a class="a1" href="#thethao">THỂ THAO</a>
-          <a class="a1" href="#doituyen">ĐỘI TUYỂN</a>
-          <a class="a1" href="#cacnhanhieu">CÁC NHÃN HIỆU</a>
-          <a class="a1" href="salesoc">SALE SỐC</a>
-        </div>
-        <div class="searchbar">
-          <input type="text" class="search-box" placeholder="Search..." />
-          <button class="search-button">Search</button>
-        </div>
-      </nav>
-      <img src="img/anh1.webp" alt="advertisement" width="100%" title="advertisement" />
-      <div class="advertisement">
-        <div class="ad1-container">
-          <img
-            src="img/anh2.webp"
-            class="ad1"
-            width="100%"
-            alt="advertisement2"
-            title="advertisement2"
-          />
-        </div>
-        <div class="ad2-container">
-          <img
-            src="img/anh3.webp"
-            class="ad2"
-            width="100%"
-            alt="advertisement3"
-            title="advertisement3"
-          />
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="bong">
-        <h2>BÓNG</h2>
-      </div>
-      <div class="list1">
-        <a id="bong-da-btn" class="a2 active" href="#bongda">Bóng đá</a>
-        <a id="bong-chuyen-btn" class="a2" href="#bongchuyen">Bóng chuyền</a>
-        <a class="a2" href="#bongro">Bóng rổ</a>
-        <a class="a2" href="#bongfutsal">Bóng Futsal</a>
-      </div>
-      <div id="container" class="bong-container show"></div>
-    </section>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>CSS Practice 2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <script src="main.js" defer></script>
+</head>
 
-    <section>
-      <div class="bong">
-        <h2>GIÀY THỂ THAO</h2>
+<body>
+  <section>
+    <nav class="header">
+      <div class="logobackground">
+        <img src="img/Untitled-1-01.png" class="logo" width="90" alt="logo" title="Logo" />
       </div>
-      <div class="list1">
-        <a class="a2" href="#giaybongda">Giày bóng đá</a>
-        <a class="a2" href="#giaychay">Giày chạy</a>
-        <a class="a2" href="#giaycaulong">Giày cầu lông</a>
-        <a class="a2" href="#bgiaythoitrang">Giày thời trang</a>
+      <div class="menu">
+        <a class="a1" href="#nam">NAM</a>
+        <a class="a1" href="#nu">NỮ</a>
+        <a class="a1" href="#thethao">THỂ THAO</a>
+        <a class="a1" href="#doituyen">ĐỘI TUYỂN</a>
+        <a class="a1" href="#cacnhanhieu">CÁC NHÃN HIỆU</a>
+        <a class="a1" href="salesoc">SALE SỐC</a>
       </div>
-      <div class="bong-container">
-        <div class="bongcontent-container">
-          <div class="bongimg-container">
-            <a href="https://donglucsport.vn/products/giay-da-bong-san-co-nhan-tao-nex-02dl">
-              <img
-                class="bongimg"
-                src="img/giay-1.webp"
-                alt="GIÀY ĐÁ BÓNG SÂN CỎ NHÂN TẠO NEX-02DL"
-                title="GIÀY ĐÁ BÓNG SÂN CỎ NHÂN TẠO NEX-02DL"
-              />
-            </a>
-          </div>
-          <div>
-            <a href="https://donglucsport.vn/products/giay-da-bong-san-co-nhan-tao-nex-02dl">
-              <p class="textbong">GIÀY ĐÁ BÓNG SÂN CỎ NHÂN TẠO NEX-02DL</p>
-            </a>
-            <div class="bongprice-container">
-              <h1>295,000₫</h1>
-            </div>
-          </div>
-        </div>
-        <div class="bongcontent-container">
-          <div class="bongimg-container">
-            <a href="https://donglucsport.vn/products/giay-da-bong-mitre-mt-100795">
-              <img
-                class="bongimg"
-                src="img/giay-2.webp"
-                alt="GIÀY ĐÁ BÓNG MITRE MT-100795"
-                title="GIÀY ĐÁ BÓNG MITRE MT-100795"
-              />
-            </a>
-          </div>
-          <div>
-            <a href="https://donglucsport.vn/products/giay-da-bong-mitre-mt-100795">
-              <p class="textbong">GIÀY ĐÁ BÓNG MITRE MT-100795</p>
-            </a>
-            <div class="bongprice-container">
-              <h1>620,000₫</h1>
-            </div>
-          </div>
-        </div>
-        <div class="bongcontent-container">
-          <div class="bongimg-container">
-            <a href="https://donglucsport.vn/products/giay-da-bong-nex-dl01">
-              <img
-                class="bongimg"
-                src="img/giay-3.webp"
-                alt="GIÀY ĐÁ BÓNG SÂN CỎ NHÂN TẠO NEX-01DL"
-                title="GIÀY ĐÁ BÓNG SÂN CỎ NHÂN TẠO NEX-01DL"
-              />
-            </a>
-          </div>
-          <div>
-            <a href="https://donglucsport.vn/products/giay-da-bong-nex-dl01">
-              <p class="textbong">GIÀY ĐÁ BÓNG SÂN CỎ NHÂN TẠO NEX-01DL</p>
-            </a>
-            <div class="bongprice-container">
-              <h1>295,000₫</h1>
-            </div>
-          </div>
-        </div>
-        <div class="bongcontent-container">
-          <div class="bongimg-container">
-            <a href="https://donglucsport.vn/products/giay-da-bong-mitre-201213-sliver-aqua">
-              <img
-                class="bongimg"
-                src="img/giày-4.jpg"
-                alt="GIÀY ĐÁ BÓNG MITRE MT-011010"
-                title="GIÀY ĐÁ BÓNG MITRE MT-011010"
-              />
-            </a>
-          </div>
-          <div>
-            <a href="https://donglucsport.vn/products/giay-da-bong-mitre-201213-sliver-aqua">
-              <p class="textbong">GIÀY ĐÁ BÓNG MITRE MT-011010</p>
-            </a>
-            <div class="bongprice-container">
-              <h1>620,000₫</h1>
-            </div>
-          </div>
-        </div>
+      <div class="searchbar">
+        <input type="text" class="search-box" placeholder="Search..." />
+        <button class="search-button">Search</button>
       </div>
-    </section>
+    </nav>
+    <img src="img/anh1.webp" alt="advertisement" width="100%" title="advertisement" />
+    <div class="advertisement">
+      <div class="ad1-container">
+        <img src="img/anh2.webp" class="ad1" width="100%" alt="advertisement2" title="advertisement2" />
+      </div>
+      <div class="ad2-container">
+        <img src="img/anh3.webp" class="ad2" width="100%" alt="advertisement3" title="advertisement3" />
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="bong">
+      <h2>BÓNG</h2>
+    </div>
+    <div class="list1">
+      <a id="bong-da-btn" class="a2 active" href="#bongda">Bóng đá</a>
+      <a id="bong-chuyen-btn" class="a2" href="#bongchuyen">Bóng chuyền</a>
+      <a id="bong-ro-btn" class="a2" href="#bongro">Bóng rổ</a>
+      <a id="bong-futsal-btn" class="a2" href="#bongfutsal">Bóng Futsal</a>
+    </div>
+    <div id="container" class="bong-container show"></div>
+  </section>
 
-    <section>
-      <div class="bong">
-        <h2>THIẾT BỊ TẬP</h2>
-      </div>
-      <div class="bong-container">
-        <div class="bongcontent-container">
-          <div class="bongimg-container">
-            <a href="https://donglucsport.vn/collections/may-chay-bo">
-              <img class="bongimg" src="img/thietbi-1.webp" alt="MÁY CHẠY BỘ" title="MÁY CHẠY BỘ" />
-            </a>
-          </div>
-          <div>
-            <a href="https://donglucsport.vn/collections/may-chay-bo">
-              <p class="texttb"><strong>MÁY CHẠY BỘ</strong></p>
-            </a>
-            <p>
-              Máy chạy bộ chuyên dùng cho phòng tập thể hình, phòng tập Gym chuyên nghiệp. Với kết
-              cấu chắc chắn, mạnh mẽ đây là mẫu máy được các phòng tập
-            </p>
-            <div class="bongprice-container">
-              <a href="https://donglucsport.vn/collections/may-chay-bo">
-                <p class="addition">XEM THÊM</p>
-              </a>
-            </div>
-          </div>
+  <section>
+    <div class="bong">
+      <h2>GIÀY THỂ THAO</h2>
+    </div>
+    <div class="list1">
+      <a class="a2" href="#giaybongda">Giày bóng đá</a>
+      <a class="a2" href="#giaychay">Giày chạy</a>
+      <a class="a2" href="#giaycaulong">Giày cầu lông</a>
+      <a class="a2" href="#bgiaythoitrang">Giày thời trang</a>
+    </div>
+    <div class="bong-container">
+      <div class="bongcontent-container">
+        <div class="bongimg-container">
+          <a href="https://donglucsport.vn/products/giay-da-bong-san-co-nhan-tao-nex-02dl">
+            <img class="bongimg" src="img/giay-1.webp" alt="GIÀY ĐÁ BÓNG SÂN CỎ NHÂN TẠO NEX-02DL"
+              title="GIÀY ĐÁ BÓNG SÂN CỎ NHÂN TẠO NEX-02DL" />
+          </a>
         </div>
-        <div class="bongcontent-container">
-          <div class="bongimg-container">
-            <a href="https://donglucsport.vn/collections/xe-dap">
-              <img class="bongimg" src="img/thietbi-2.webp" alt="XE ĐẠP" title="XE ĐẠP" />
-            </a>
-          </div>
-          <div>
-            <a href="https://donglucsport.vn/collections/xe-dap">
-              <p class="texttb"><strong>XE ĐẠP</strong></p>
-            </a>
-            <p>
-              Xe đạp tập sở hữu kiểu dáng hiện đại, gọn gàng giúp việc di chuyển và lắp đặt trở nên
-              đơn giản, dễ dàng. Khung xe được thiết kế tỉ mỉ và làm từ chất liệu cao...
-            </p>
-            <div class="bongprice-container">
-              <a href="https://donglucsport.vn/collections/xe-dap">
-                <p class="addition">XEM THÊM</p>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="bongcontent-container">
-          <div class="bongimg-container">
-            <a href="https://donglucsport.vn/collections/gian-tap-cac-may-khac">
-              <img
-                class="bongimg"
-                src="img/thietbi-3.webp"
-                alt="GIÀN TẬP & CÁC MÁY KHÁC"
-                title="GIÀN TẬP & CÁC MÁY KHÁC"
-              />
-            </a>
-          </div>
-          <div>
-            <a href="https://donglucsport.vn/collections/gian-tap-cac-may-khac">
-              <p class="texttb"><strong>GIÀN TẬP & CÁC MÁY KHÁC</strong></p>
-            </a>
-            <p>
-              Giàn tạ đa năng là một thiết bị tập thể dục tại nhà hoàn toàn sáng tạo, giàn tạ đa
-              năng với thiết kế mang đến một vẻ ngoài đẹp mắt, sang trọng.
-            </p>
-            <div class="bongprice-container">
-              <a href="https://donglucsport.vn/collections/gian-tap-cac-may-khac">
-                <p class="addition">XEM THÊM</p>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="bongcontent-container">
-          <div class="bongimg-container">
-            <a href="https://donglucsport.vn/collections/gian-ta-ta-tay">
-              <img
-                class="bongimg"
-                src="img/thietbi-4.webp"
-                alt="GIÀN TẠ & TẠ TAY"
-                title="GIÀN TẠ & TẠ TAY"
-              />
-            </a>
-          </div>
-          <div>
-            <a href="https://donglucsport.vn/collections/gian-ta-ta-tay">
-              <p class="texttb"><strong>GIÀN TẠ & TẠ TAY</strong></p>
-            </a>
-            <p>
-              Tạ được làm từ chất liệu thép cao cấp đúc đặc đảm bảo chất lượng tạ trong quá trình sử
-              dụng khi bị va chạm hay rơi vỡ. Tay cầm có vân, dễ cầm, dễ di...
-            </p>
-            <div class="bongprice-container">
-              <a href="https://donglucsport.vn/collections/gian-ta-ta-tay">
-                <p class="addition">XEM THÊM</p>
-              </a>
-            </div>
+        <div>
+          <a href="https://donglucsport.vn/products/giay-da-bong-san-co-nhan-tao-nex-02dl">
+            <p class="textbong">GIÀY ĐÁ BÓNG SÂN CỎ NHÂN TẠO NEX-02DL</p>
+          </a>
+          <div class="bongprice-container">
+            <h1>295,000₫</h1>
           </div>
         </div>
       </div>
-    </section>
+      <div class="bongcontent-container">
+        <div class="bongimg-container">
+          <a href="https://donglucsport.vn/products/giay-da-bong-mitre-mt-100795">
+            <img class="bongimg" src="img/giay-2.webp" alt="GIÀY ĐÁ BÓNG MITRE MT-100795"
+              title="GIÀY ĐÁ BÓNG MITRE MT-100795" />
+          </a>
+        </div>
+        <div>
+          <a href="https://donglucsport.vn/products/giay-da-bong-mitre-mt-100795">
+            <p class="textbong">GIÀY ĐÁ BÓNG MITRE MT-100795</p>
+          </a>
+          <div class="bongprice-container">
+            <h1>620,000₫</h1>
+          </div>
+        </div>
+      </div>
+      <div class="bongcontent-container">
+        <div class="bongimg-container">
+          <a href="https://donglucsport.vn/products/giay-da-bong-nex-dl01">
+            <img class="bongimg" src="img/giay-3.webp" alt="GIÀY ĐÁ BÓNG SÂN CỎ NHÂN TẠO NEX-01DL"
+              title="GIÀY ĐÁ BÓNG SÂN CỎ NHÂN TẠO NEX-01DL" />
+          </a>
+        </div>
+        <div>
+          <a href="https://donglucsport.vn/products/giay-da-bong-nex-dl01">
+            <p class="textbong">GIÀY ĐÁ BÓNG SÂN CỎ NHÂN TẠO NEX-01DL</p>
+          </a>
+          <div class="bongprice-container">
+            <h1>295,000₫</h1>
+          </div>
+        </div>
+      </div>
+      <div class="bongcontent-container">
+        <div class="bongimg-container">
+          <a href="https://donglucsport.vn/products/giay-da-bong-mitre-201213-sliver-aqua">
+            <img class="bongimg" src="img/giày-4.jpg" alt="GIÀY ĐÁ BÓNG MITRE MT-011010"
+              title="GIÀY ĐÁ BÓNG MITRE MT-011010" />
+          </a>
+        </div>
+        <div>
+          <a href="https://donglucsport.vn/products/giay-da-bong-mitre-201213-sliver-aqua">
+            <p class="textbong">GIÀY ĐÁ BÓNG MITRE MT-011010</p>
+          </a>
+          <div class="bongprice-container">
+            <h1>620,000₫</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <section>
-      <div class="section3container">
-        <div class="backgroundcontainer">
-          <img class="background" src="img/background.png" width="100%" alt="background" />
+  <section>
+    <div class="bong">
+      <h2>THIẾT BỊ TẬP</h2>
+    </div>
+    <div class="bong-container">
+      <div class="bongcontent-container">
+        <div class="bongimg-container">
+          <a href="https://donglucsport.vn/collections/may-chay-bo">
+            <img class="bongimg" src="img/thietbi-1.webp" alt="MÁY CHẠY BỘ" title="MÁY CHẠY BỘ" />
+          </a>
         </div>
-        <div class="leftsection3">
-          <h1 class="headersection3">GIỚI THIỆU</h1>
-          <p class="psection3">
-            Công ty Cổ phần Động Lực (Tên viết tắt: Động Lực Group), tự hào là tập đoàn lớn mạnh
-            hàng đầu Việt Nam với hơn 32 năm kinh nghiệm trong lĩnh vực sản xuất – phân phối – xuất
-            nhập khẩu trang phục thể thao, trang thiết bị dụng cụ chăm sóc sức khỏe, thiết bị giáo
-            dục; tư vấn và xây dựng công trình thể dục thể thao. Động Lực Group hiện có chi nhánh ở
-            3 thành phố lớn: Tp. Hà Nội, Tp. Vinh và Tp.HCM với hệ thống phân phối sỉ lẻ lên tới 800
-            đại lý trải dài từ Bắc vào Nam.
+        <div>
+          <a href="https://donglucsport.vn/collections/may-chay-bo">
+            <p class="texttb"><strong>MÁY CHẠY BỘ</strong></p>
+          </a>
+          <p>
+            Máy chạy bộ chuyên dùng cho phòng tập thể hình, phòng tập Gym chuyên nghiệp. Với kết
+            cấu chắc chắn, mạnh mẽ đây là mẫu máy được các phòng tập
           </p>
-        </div>
-        <div class="rightsection3">
-          <div class="containa3img3">
-            <a class="a3" href="https://donglucsport.vn/blogs/san-van-dong">
-              <img class="img3" src="img/section3-1.jpg" width="100%" alt="section3" />
-            </a>
-          </div>
-          <div class="containa3img3">
-            <a class="a3" href="https://donglucsport.vn/blogs/nha-thi-dau">
-              <img class="img3" src="img/section3-2.jpg" width="100%" alt="section3" />
-            </a>
-          </div>
-          <div class="containa3img3">
-            <a class="a3" href="https://donglucsport.vn/blogs/dong-phuc-hoc-sinh-sinh-vien">
-              <img class="img3" src="img/section3-3.webp" width="100%" alt=" section3" />
-            </a>
-          </div>
-          <div class="containa3img3">
-            <a class="a3" href="https://donglucsport.vn/blogs/thiet-bi-phong-tap">
-              <img
-                class="img3"
-                src="img/section3-4.webp"
-                width="100%"
-                height="100%"
-                alt="section3"
-              />
+          <div class="bongprice-container">
+            <a href="https://donglucsport.vn/collections/may-chay-bo">
+              <p class="addition">XEM THÊM</p>
             </a>
           </div>
         </div>
       </div>
-    </section>
-  </body>
+      <div class="bongcontent-container">
+        <div class="bongimg-container">
+          <a href="https://donglucsport.vn/collections/xe-dap">
+            <img class="bongimg" src="img/thietbi-2.webp" alt="XE ĐẠP" title="XE ĐẠP" />
+          </a>
+        </div>
+        <div>
+          <a href="https://donglucsport.vn/collections/xe-dap">
+            <p class="texttb"><strong>XE ĐẠP</strong></p>
+          </a>
+          <p>
+            Xe đạp tập sở hữu kiểu dáng hiện đại, gọn gàng giúp việc di chuyển và lắp đặt trở nên
+            đơn giản, dễ dàng. Khung xe được thiết kế tỉ mỉ và làm từ chất liệu cao...
+          </p>
+          <div class="bongprice-container">
+            <a href="https://donglucsport.vn/collections/xe-dap">
+              <p class="addition">XEM THÊM</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="bongcontent-container">
+        <div class="bongimg-container">
+          <a href="https://donglucsport.vn/collections/gian-tap-cac-may-khac">
+            <img class="bongimg" src="img/thietbi-3.webp" alt="GIÀN TẬP & CÁC MÁY KHÁC"
+              title="GIÀN TẬP & CÁC MÁY KHÁC" />
+          </a>
+        </div>
+        <div>
+          <a href="https://donglucsport.vn/collections/gian-tap-cac-may-khac">
+            <p class="texttb"><strong>GIÀN TẬP & CÁC MÁY KHÁC</strong></p>
+          </a>
+          <p>
+            Giàn tạ đa năng là một thiết bị tập thể dục tại nhà hoàn toàn sáng tạo, giàn tạ đa
+            năng với thiết kế mang đến một vẻ ngoài đẹp mắt, sang trọng.
+          </p>
+          <div class="bongprice-container">
+            <a href="https://donglucsport.vn/collections/gian-tap-cac-may-khac">
+              <p class="addition">XEM THÊM</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="bongcontent-container">
+        <div class="bongimg-container">
+          <a href="https://donglucsport.vn/collections/gian-ta-ta-tay">
+            <img class="bongimg" src="img/thietbi-4.webp" alt="GIÀN TẠ & TẠ TAY" title="GIÀN TẠ & TẠ TAY" />
+          </a>
+        </div>
+        <div>
+          <a href="https://donglucsport.vn/collections/gian-ta-ta-tay">
+            <p class="texttb"><strong>GIÀN TẠ & TẠ TAY</strong></p>
+          </a>
+          <p>
+            Tạ được làm từ chất liệu thép cao cấp đúc đặc đảm bảo chất lượng tạ trong quá trình sử
+            dụng khi bị va chạm hay rơi vỡ. Tay cầm có vân, dễ cầm, dễ di...
+          </p>
+          <div class="bongprice-container">
+            <a href="https://donglucsport.vn/collections/gian-ta-ta-tay">
+              <p class="addition">XEM THÊM</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section3container">
+      <div class="backgroundcontainer">
+        <img class="background" src="img/background.png" width="100%" alt="background" />
+      </div>
+      <div class="leftsection3">
+        <h1 class="headersection3">GIỚI THIỆU</h1>
+        <p class="psection3">
+          Công ty Cổ phần Động Lực (Tên viết tắt: Động Lực Group), tự hào là tập đoàn lớn mạnh
+          hàng đầu Việt Nam với hơn 32 năm kinh nghiệm trong lĩnh vực sản xuất – phân phối – xuất
+          nhập khẩu trang phục thể thao, trang thiết bị dụng cụ chăm sóc sức khỏe, thiết bị giáo
+          dục; tư vấn và xây dựng công trình thể dục thể thao. Động Lực Group hiện có chi nhánh ở
+          3 thành phố lớn: Tp. Hà Nội, Tp. Vinh và Tp.HCM với hệ thống phân phối sỉ lẻ lên tới 800
+          đại lý trải dài từ Bắc vào Nam.
+        </p>
+      </div>
+      <div class="rightsection3">
+        <div class="containa3img3">
+          <a class="a3" href="https://donglucsport.vn/blogs/san-van-dong">
+            <img class="img3" src="img/section3-1.jpg" width="100%" alt="section3" />
+          </a>
+        </div>
+        <div class="containa3img3">
+          <a class="a3" href="https://donglucsport.vn/blogs/nha-thi-dau">
+            <img class="img3" src="img/section3-2.jpg" width="100%" alt="section3" />
+          </a>
+        </div>
+        <div class="containa3img3">
+          <a class="a3" href="https://donglucsport.vn/blogs/dong-phuc-hoc-sinh-sinh-vien">
+            <img class="img3" src="img/section3-3.webp" width="100%" alt=" section3" />
+          </a>
+        </div>
+        <div class="containa3img3">
+          <a class="a3" href="https://donglucsport.vn/blogs/thiet-bi-phong-tap">
+            <img class="img3" src="img/section3-4.webp" width="100%" height="100%" alt="section3" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
 </html>
